@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>ShowMe - شبكة الصور الاجتماعية</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>ShowMe</h1>
+  </div>
+
+  <div class="hero">
+    <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=1000&q=80" alt="Woman" />
+    <p>أهلاً بك! شارك لحظاتك مع الآخرين 💬</p>
+  </div>
+
+  <div class="form-box">
+    <input type="email" id="email" placeholder="البريد الإلكتروني">
+    <input type="password" id="password" placeholder="كلمة المرور">
+    <button onclick="signUp()">تسجيل</button>
+    <p id="status"></p>
+  </div>
+
+  <div class="features">
+    <h2>مزايا ShowMe:</h2>
+    <ul>
+      <li>📷 مشاركة صور فقط</li>
+      <li>👤 صفحة بروفايل فيها صورتك وألبوم صورك</li>
+      <li>💬 رسائل خاصة</li>
+      <li>📹 مكالمات فيديو</li>
+      <li>🎥 بث مباشر بدون تخزين</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
